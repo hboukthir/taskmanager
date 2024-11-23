@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestionnaire de Tâches</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gestionnaire de Tâches</h1>
+
+        <!-- Formulaire pour ajouter des tâches -->
+        <form id="task-form">
+            <input type="text" id="task-name" placeholder="Nom de la tâche" required>
+            <input type="date" id="task-date" required>
+            <button type="submit">Ajouter une tâche</button>
+        </form>
+
+        <!-- Affichage des tâches -->
+        <h2>Mes Tâches</h2>
+        <ul id="task-list"></ul>
+
+        <!-- Option pour effacer toutes les tâches -->
+        <button id="clear-tasks">Effacer toutes les tâches</button>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
